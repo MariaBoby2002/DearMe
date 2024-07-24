@@ -1,0 +1,81 @@
+body {
+    padding-top: 6em; 
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: bisque;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.navbar-brand {
+    font-size: 1.5rem; 
+    color: black;
+    text-decoration: none;
+}
+
+.nav-link {
+    font-size: 1rem; 
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: burlywood;
+}
+
+.diary-container {
+    padding: 2em 1em;
+}
+
+.diary-entry {
+    background-color: white;
+    border: 2px solid burlywood;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.diary-entry h2 {
+    font-family: 'Dancing Script', cursive; 
+    color: #333;
+}
+
+.diary-entry p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.625em 1.25em; 
+    margin-top: 10px;
+    background-color: peachpuff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: burlywood;
+}
+
+footer {
+    background-color: bisque;
+    padding: 1em 0;
+    text-align: center;
+    margin-top: auto; 
+    
+}
